@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  color:black;
+}
+
+/* 
+body {
+    background-image: url("FondoL-InOut.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+.contenedor {
+    width: 360px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+    background: #2C2F35;
+}
+
+ */
+
+ /* Pagina de registro y ingreso de usuarios */
+
+.contenedor-lr-u{
+    width: 100%;
+    height: 100%;
+    background-image: url("../IMG/FondoL-InOut.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+    color: white; 
+}
+
+
+.contenedor-log-user {
+    width: 360px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+    background: #2C2F35;
+}
+
+
+/* Pagina de Ingreso y registro de Asesores */
+
+.contenedor-lr-a{
+    width: 100%;
+    height: 100%;
+    background-image: url("../IMG/FondoL-InOut-Assr.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+
+
+.contenedor-log-asesr {
+    width: 360px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+    background: #2C2F35;
+}
+
+
+/* Contenedor login Admin */
+.contenedor-l-Admin{
+    width: 100%;
+    height: 100%;
+    background-image: url("../IMG/Home-Admin.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+    color: white; 
+}
+
+
+.contenedor-log-Admin{
+    width: 360px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+    background: #2C2F35;
+}
+
+
+.P-User-Admin{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url("../IMG/logAdmin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+
+/* Perfil Usuarios */
+
+.P-User-Home{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url("../IMG/Home-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+/* Perfil Asesores */
+
+.P-Assr-Home{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url("../IMG/Home-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+
+/* Contenedor de la vista de usuario o la actualizacion. */
+.contenedor-update {
+    width: 360px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+    background: #e4e4e4;
+    color: black;
+}
+
+.dataContainer, .B-Texto-Mostrar{
+    color: black;
+}
+
+form input{
+    width: 94%;
+    outline: none;
+    padding: .5rem;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: #e4e4e4;
+    color: black;
+}
+
+label{
+    font-size: 20px;
+    float: left;
+}
+
+
+
+/* Botones random */
+
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    color: black;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    background-color: rgb(153, 43, 226);
+    color: #fff;
+}
+
+/* 
+#extr {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    #bblg {
+        background-image: url("../IMG/Valid-Assr.jpg");
+    }
+    
+    #btem {
+        background-image: url("../IMG/Valid_user.jpg");
+    }
+    
+    .boxs {
+        background-position: center;
+        background-size: cover; 
+        
+        color: #fff;
+        width: 40%;
+        height: 80%;
+        background-color: #000;
+        
+        .ibox {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+            height: 90%;
+            padding: 5%;
+            transition: 0.15s;
+            
+            .delm {
+                flex-grow: 99;
+            }
+            
+            h1 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 25px;
+            }
+        }
+        
+            &:hover{
+                transform: scale(1.01);
+                transition: 0.15s;
+            }
+            
+    }
+    
+} */
+
+.mainContent{
+    height: 0%;
+    width: 100%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.headerContainer{
+    height: 8vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba( 0 ,0, 0, 0.7);
+}
+
+.headerContent{
+    width: 95%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer {
+    height: 80px;  
+    width: 120px; 
+    margin-left: 20px;  
+    margin-right: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.logo-Home-User{
+    height: 60%;
+    width: auto;
+    
+}
+
+.logo-Home-Assr{
+    height: 60%;
+    width: auto;
+    
+}
+.menuItem{
+    margin-left: 3vw;
+}
+
+.menuItem:hover{
+    opacity: 0.8;
+}
+
+.menuItemLink{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.dataContainer{
+    margin: 15%;
+    padding: 10px;
+   margin-top: 50px;
+   background-color: #e4e4e4;
+   
+}
+
+/*Buton actualizar*/
+.button-actualizar{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(153, 43, 226);
+    color: black;
+    cursor: pointer;
+
+}
+
+.button-actualizar:hover{
+    background-color: rgb(243, 243, 243);
+    color: black;
+}
+
+
+
+
+/* 
+#extr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;  
+}
+
+.boxs {
+    background-position: center;
+    background-size: cover; 
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5%;
+    transition: 0.15s;
+    margin: 10px; 
+     
+     
+}
+
+
+.boxs:hover {
+    transform: scale(1.4);
+    transition: 0.15s;
+}
+
+.ibox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+    height: 90%;
+}
+
+.delm {
+    flex-grow: 99;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+} */
+
+/* Administrar vista de asesores */
+
+.Admin-Assr-Container{
+    margin: 15%;
+    padding: 10px;
+   margin-top: 50px;
+   background-color: #e4e4e4;
+   
+}
+
+.Admin-Assr-Container, .B-Texto-Mostrar{
+    color: black;
+}
